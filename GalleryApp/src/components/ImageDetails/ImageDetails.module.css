@@ -1,0 +1,31 @@
+/* Container for the image details */
+.image-details-container {
+    margin: 0 ;
+    padding: 30px 20px;
+    display: flex;
+    background-color: rgb(4, 4, 132);
+    border-radius: 8px;
+    color: #ccc;
+  }
+  /* Image title */
+  .image-title {
+    font-size: 35px;
+    font-weight:bolder;
+    margin-bottom: 10px;
+  }
+  
+  /* Image description */
+  .image-description {
+    font-size: 20px;
+    margin-bottom: auto;
+  }
+  
+  /* Image */
+  .image {
+    max-width: 60%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
